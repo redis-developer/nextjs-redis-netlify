@@ -1,0 +1,43 @@
+{
+  "app_name": "Next.js + Tailwind + Redis + Netlify Serverless Starter",
+  "description": "This app is a minimal starter template for building a site with Next.js, TailwindCSS, Redis, and deploying to Netlify ",
+  "type": "Building Block",
+  "contributed_by": "Redis",
+  "repo_url": "https://github.com/redis-developer/nextjs-redis-netlify",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/basic-caching-demo-nodejs/main/images/app_preview_image.png",
+  "download_url": "https://github.com/redis-developer/nextjs-redis-netlify/archive/main.zip",
+  "hosted_url": "",
+  "quick_deploy": "true",
+  "deploy_buttons": [
+    {
+      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/nextjs-redis-netlify"
+    },
+    {
+      "vercel": "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fredis-developer%2Fnextjs-redis-netlify"
+    },
+    {
+      "netlify": "https://app.netlify.com/start/deploy?repository=https://github.com/redis-developer/nextjs-redis-netlify"
+    },
+    {
+      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/nextjs-redis-netlify.git"
+    }
+  ],
+  "language": ["JavaScript"],
+  "redis_commands": [
+    "FT.CREATE",
+    "FT.SEARCH",
+    "WATCH",
+    "MULTI",
+    "UNLINK",
+    "HSET"
+  ],
+  "redis_features": ["Caching"],
+  "redis_modules": [],
+  "app_image_urls": [
+    "https://user-images.githubusercontent.com/785258/153513467-68934da0-ad2a-4d4b-b72b-327b8865102a.png"
+  ],
+  "youtube_url": "",
+  "special_tags": [],
+  "verticals": ["Others"],
+  "markdown": "https://raw.githubusercontent.com/redis-developer/nextjs-redis-netlify/main/README.md"
+}
