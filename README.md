@@ -41,3 +41,13 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 You will find a `.env.example` file in the root of the project. Copy it to `.env.local` and fill in the value for your Redis connection string. When you deploy, you will also need to configure your environment variables for your Netlify environnment.
 
 > **Note:** If you are using a localhost Redis this app is configured to connect to "redis://localhost:6379" by default
+
+## Setting up indexes
+
+This app uses [Redis OM](https://github.com/redis/redis-om-node), which will automatically setup indexes for you in Redis. In the `server/redis.js` you will find a commented-out line:
+
+```js
+await repository.createIndex();
+```
+
+When you first start the app, you will need to create the index by uncommenting this line and searching. After that point you can comment this line again and the index will be maintained.
