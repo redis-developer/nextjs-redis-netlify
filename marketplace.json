@@ -33,9 +33,7 @@
   ],
   "redis_features": ["Caching"],
   "redis_modules": [],
-  "app_image_urls": [
-    "https://user-images.githubusercontent.com/785258/153513467-68934da0-ad2a-4d4b-b72b-327b8865102a.png"
-  ],
+  "app_image_urls": [],
   "youtube_url": "",
   "special_tags": [],
   "verticals": ["Others"],
