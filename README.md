@@ -1,8 +1,9 @@
-# Next.js + TailwindCSS + Redis + Netlify Serverless Starter
+# Redis Caching app built with Next.js, TailwindCSS, Redis and Netlify Serverless Starter
+
+This is a [Next.js](https://nextjs.org/) v12 project with [TailwindCSS](https://tailwindcss.com/) and [Redis](https://developer.redis.com/) using [Redis OM](https://github.com/redis/redis-om-node), ready to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
 
 ![nextjs-tailwind-redis-netlify-serverless](https://user-images.githubusercontent.com/785258/153513467-68934da0-ad2a-4d4b-b72b-327b8865102a.png)
 
-This is a [Next.js](https://nextjs.org/) v12 project with [TailwindCSS](https://tailwindcss.com/) and [Redis](https://developer.redis.com/) using [Redis OM](https://github.com/redis/redis-om-node), ready to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
 
 This project is a very minimal starter that includes 3 sample components, a global stylesheet, a `netlify.toml` for deployment, a `jsconfig.json` for setting up absolute imports and aliases, and `postcss.config.js` and `tailwind.config.js` files for configuring Tailwind. It also includes the [Essential Next.js Build Plugin](https://github.com/netlify/netlify-plugin-nextjs), which will allow for you to implement features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing.
 
