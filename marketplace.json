@@ -32,7 +32,9 @@
     "HSET"
   ],
   "redis_features": ["Caching"],
-  "redis_modules": [],
+  "redis_modules": [
+     "https://raw.githubusercontent.com/redis-developer/nextjs-redis-netlify/main/netlify_image.png"
+  ],
   "app_image_urls": [],
   "youtube_url": "",
   "special_tags": [],
