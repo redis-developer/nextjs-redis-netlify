@@ -31,8 +31,8 @@
     "UNLINK",
     "HSET"
   ],
-  "redis_features": ["Caching"],
-  "redis_modules": [],
+  "redis_use_cases": ["Caching"],
+  "redis_features": [],
   "app_image_urls": [
      "https://raw.githubusercontent.com/redis-developer/nextjs-redis-netlify/main/netlify_image.png"
   ],
