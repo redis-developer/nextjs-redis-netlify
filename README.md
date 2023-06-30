@@ -63,7 +63,7 @@ The app is a very basic Redis cache app. It allows you to see the performance in
 
 Redis OM is used to store the data on your behalf. While you do not need to worry about the specific commands used to store the data, the following commands are used:
 
-- **FT.CREATE**: Used to create indexes for RediSearch
+- **FT.CREATE**: Used to create indexes for Redis Search
 - **HSET**: Used to set a hash of the GitHub repository data
 
 ### How the data is accessed
